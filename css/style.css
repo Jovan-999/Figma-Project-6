@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #f5f6f8;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 256px;
+  grid-template-rows: 162px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  background-color: #ffffff;
+  width: 256px;
+  height: 850px;
+}
+
+.logo {
+  margin: 24px 163px 17px 24px;
+}
+
+.person {
+  display: flex;
+  border-top: 1px solid #ebeff2;
+  margin-bottom: 41.5px;
+}
+
+.woman {
+  border-radius: 100px;
+  margin-top: 24px;
+  margin-left: 15px;
+}
+
+.p {
+  margin-top: 28px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #192a3e;
+  text-decoration: none;
+  margin-left: 9px;
+  margin-top: 28px;
+  cursor: auto;
+}
+
+.gmail {
+  font-size: 11px;
+  color: #90a0b7;
+  text-decoration: none;
+  margin-left: 9px;
+  cursor: auto;
+}
+
+.item--active {
+  color: #109cf1;
+}
+
+.settings-margin {
+  display: flex;
+  border-top: 1px solid #ebeff2;
+  vertical-align: middle;
+}
+
+.settings {
+  margin-top: 24px;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.icons {
+  margin-left: 26.5px;
+  vertical-align: middle;
+}
+
+.names {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-left: 16.5px;
+  margin-bottom: 2rem;
+  vertical-align: middle;
+}
+
+/* HEADER */
+
+.header {
+  grid-column-start: 2;
+  height: 6rem;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.search {
+  display: flex;
+  margin-left: 38.5px;
+}
+
+.search__input {
+  border: none;
+  font-family: Poppins;
+  font-size: 12px;
+  padding: 2rem;
+}
+
+.search__input:focus {
+  outline: none;
+}
+.bell {
+  margin-right: 20px;
+  position: relative;
+}
+
+.bell__notification {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #f7685b;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FEATURE */
+
+.feature {
+  width: 1110px;
+  background-color: #ffffff;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  margin-left: 36px;
+  margin-right: 38px;
+}
+
+.grid--container {
+  display: grid;
+  grid-template-rows: 48px repeat(10, 64px);
+}
+
+.first,
+.div {
+  border-bottom: 1px solid #ebeff2;
+}
+
+/* first row */
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left--side {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.unchecked {
+  margin-left: 24px;
+  vertical-align: middle;
+}
+
+.name--1 {
+  margin-left: 24px;
+}
+
+.recent {
+  text-align: end;
+  display: inline-block;
+  margin-right: 24px;
+  width: 130px;
+}
+
+.company {
+  display: inline-block;
+  width: 120px;
+  margin-right: 24px;
+}
+
+.role {
+  display: inline-block;
+  text-align: start;
+  width: 120px;
+  margin-right: 24px;
+}
+
+.forecast {
+  display: inline-block;
+  width: 60px;
+  margin-right: 24px;
+}
+
+.email {
+  display: inline-block;
+  text-align: start;
+  width: 210px;
+  margin-right: 24px;
+}
+
+.name--1,
+.email,
+.company,
+.role,
+.forecast,
+.recent {
+  font-family: Poppins;
+  font-size: 13px;
+  opacity: 50%;
+}
+
+/* DIV */
+
+.div {
+  display: flex;
+  align-items: center;
+}
+
+/* DIV 1 */
+
+.div--1,
+.div--2,
+.div--3,
+.div--4,
+.div--5,
+.div--6,
+.div--7,
+.div--8,
+.div--9,
+.div--10 {
+  display: flex;
+}
+
+/* .lindsey,
+.nicci,
+.george,
+.rebecca {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+  width: 200px;
+  justify-content: space-between;
+} */
+
+.lindsey,
+.nicci,
+.george,
+.rebecca,
+.jana,
+.jones,
+.martin,
+.franz,
+.john,
+.judith {
+  display: flex;
+  align-items: center;
+  /* margin-right: 24px; */
+  /* width: 326px; */
+}
+
+.lindsey__photo,
+.nicci__photo,
+.george__photo,
+.rebecca__photo,
+.jana__photo,
+.jones__photo,
+.martin__photo,
+.franz__photo,
+.john__photo,
+.judith__photo {
+  border-radius: 100px;
+  margin-left: 24px;
+  margin-right: 12px;
+}
+
+.lindsey__name,
+.nicci__name,
+.george__name,
+.rebecca__name,
+.jana__name,
+.jones__name,
+.martin__name,
+.franz__name,
+.john__name,
+.judith__name {
+  display: inline-block;
+  width: 226px;
+  font-family: Poppins;
+  font-size: 13px;
+  margin-right: 14px;
+}
+
+/* .right__side {
+  display: flex;
+  align-items: center;
+} */
+
+/* DIV 2*/
+
+/* DIV 8 */
+
+.div--8 {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.above {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.add__contact {
+  list-style-type: none;
+  width: 160px;
+  height: 42px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #109cf1;
+  margin-bottom: 24px;
+
+  position: absolute;
+  top: 96px;
+  right: 117px;
+}
+
+.date__type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 294px;
+  top: 120px;
+}
+
+.company__all {
+  font-family: Poppins;
+  font-size: 12px;
+  opacity: 50%;
+}
+.type {
+  opacity: 50%;
+}
+
+.all {
+  color: #109cf1;
+  margin-right: 45px;
+}
+
+.all {
+  color: #109cf1;
+}
+.arrow {
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+.gmail__nicci {
+  font-family: Poppins;
+  font-size: 13px;
+  color: #707683;
+  display: inline-block;
+  width: 210px;
+  margin-right: 24px;
+  text-align: start;
+}
+
+.slack {
+  width: 120px;
+  font-family: Poppins;
+  font-size: 13px;
+  color: #707683;
+  display: inline-block;
+  width: 120px;
+  text-align: start;
+  margin-right: 24px;
+}
+
+/* .hatchbuck {
+  margin: 5px;
+} */
+
+.manager {
+  font-family: Poppins;
+  font-size: 13px;
+  color: #707683;
+  display: inline-block;
+
+  width: 120px;
+  text-align: start;
+  margin-right: 33px;
+}
+
+.numero {
+  font-family: Poppins;
+  font-size: 13px;
+  color: #707683;
+  display: inline-block;
+  width: 60px;
+  text-align: start;
+  margin-right: 24px;
+}
+
+.dec {
+  display: inline-block;
+  width: 110px;
+  text-align: end;
+  font-family: Poppins;
+  font-size: 13px;
+  margin-left: 21px;
+  opacity: 50%;
+}
+
+.right__side {
+  display: flex;
+}
